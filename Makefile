@@ -28,6 +28,8 @@ export PDK?=sky130A
 #export PDK?=gf180mcuC
 export PDKPATH?=$(PDK_ROOT)/$(PDK)
 
+export OPENLANE_ROOT=$(PWD)/dependencies/openlane_src
+export PDK_ROOT=$(PWD)/dependencies/pdks
 
 
 ifeq ($(PDK),sky130A)
